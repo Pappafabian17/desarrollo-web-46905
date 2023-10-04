@@ -125,3 +125,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .text-area {
   height: 150px;
 }
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
