@@ -1,0 +1,18 @@
+.footer-contenedor-logos {
+  margin-bottom: 50px;
+
+  .footer-ancla {
+    text-decoration: none;
+    color: #fa8322;
+  }
+}
+
+.footer-logo {
+  color: #fff;
+  font-size: 25px;
+  height: 20px;
+
+  &:hover {
+    color: #9b631560;
+  }
+}
