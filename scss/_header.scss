@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato:wght@400;700;900&family=Montserrat:ital,wght@1,300&family=Roboto:wght@400;700&family=Sen&display=swap");
+@import "variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-nav {
+  background-color: $naranja-principal;
+  border-bottom: rgba(0, 0, 0, 0.4666666667) solid 10px;
+}
+
+.logo {
+  width: 160px;
+}
+
+.navbar-nav {
+  .nav-link {
+    position: relative;
+    text-decoration: none;
+    margin: 15px;
+    color: $negro;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    padding: 10px;
+    &.active {
+      color: $negro;
+      &::after {
+        width: 100%;
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      height: 5px;
+      width: 0;
+      background-color: #865716;
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover {
+      color: #9b6315;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
