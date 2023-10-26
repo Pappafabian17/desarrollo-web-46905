@@ -1,7 +1,7 @@
 /* variables */
 /* colores */
 /* fuentes */
-@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato:wght@400;700;900&family=Montserrat:ital,wght@1,300&family=Roboto:wght@400;700&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Croissant+One&family=Lato:wght@400;700;900&family=Montserrat:ital,wght@1,300&family=Roboto:wght@400;700&family=Sen&display=swap");
 /* variables */
 /* colores */
 /* fuentes */
@@ -17,7 +17,11 @@
 }
 
 .logo {
-  width: 160px;
+  width: 100px;
+}
+
+.titulo {
+  font-family: "Croissant One", cursive;
 }
 
 .navbar-nav .nav-link {
@@ -66,13 +70,14 @@
   height: 20px;
 }
 .footer-logo:hover {
-  color: rgba(155, 99, 21, 0.3764705882);
+  color: rgba(43, 26, 1, 0.6078431373);
 }
 
 .main {
   padding: 0;
   margin-bottom: 20px;
-  font-family: "Croissant One", cursive;
+  font-family: "Agbalumo";
+  overflow-x: hidden;
 }
 
 .banner {
@@ -124,15 +129,15 @@
 }
 
 .boton-whatsapp {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   position: fixed;
-  bottom: 100px;
+  bottom: 70px;
   right: 30px;
 }
 .boton-whatsapp .whatsapp-logo {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -149,4 +154,41 @@ input[type=number]::-webkit-outer-spin-button {
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.parrafo {
+  font-family: "Agbalumo";
+}
+
+.texto {
+  font-family: "Croissant One", cursive;
+}
+
+.formulario {
+  background-color: #e49528;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.submit-buttom {
+  background-color: rgb(1, 146, 1);
+  color: #ffffff;
+}
+.submit-buttom:hover {
+  background-color: rgb(1, 98, 1);
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .boton-whatsapp {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+  }
+  .boton-whatsapp .whatsapp-logo {
+    width: 100px;
+    height: 100px;
+  }
 }/*# sourceMappingURL=index.css.map */

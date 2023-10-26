@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato:wght@400;700;900&family=Montserrat:ital,wght@1,300&family=Roboto:wght@400;700&family=Sen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Croissant+One&family=Lato:wght@400;700;900&family=Montserrat:ital,wght@1,300&family=Roboto:wght@400;700&family=Sen&display=swap");
+
 @import "variables.scss";
 
 * {
@@ -13,7 +14,10 @@
 }
 
 .logo {
-  width: 160px;
+  width: 100px;
+}
+.titulo {
+  font-family: $cursiva;
 }
 
 .navbar-nav {
